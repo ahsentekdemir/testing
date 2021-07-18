@@ -3,7 +3,7 @@ import httpx
 class TEST:
 
     def __init__(self):
-        self.url = 'https://test.com'
+        self.url = 'http://cemaltiryaki.com'
 
     def get_content(self):
         return httpx.get(self.url).text
